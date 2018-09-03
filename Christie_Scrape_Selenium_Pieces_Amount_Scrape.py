@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 driver = webdriver.Chrome("C:\\Users\\Gabriel Hidalgo\\PycharmProjects\\scraper\\chromedriver.exe")
 
 #Here I am using using the BS4 scraped table for the list of links of every auctions house   
-a = pd.read_csv('All_Auction_House_Events.csv')
+a = pd.read_csv('All.csv')
 
 row = []
 
