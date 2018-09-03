@@ -4,7 +4,12 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
 driver = webdriver.Chrome("C:\\Users\\Gabriel Hidalgo\\PycharmProjects\\scraper\\chromedriver.exe")
-a = pd.read_csv('Fill_Complete.csv')
+a = pd.read_csv('Amount.csv')
+
+#Here I am taking the csv excel sheet from the Selenium web crawler and finding all null values the the initial scrape missed. This
+#code goes over those rows that have a null value in the amount of item sold and retrieves the missed values, and collects all those
+#into a csv. After I connect this csv with the orginal csv to fill in all the missing values from all the pages of the orginal data
+#scrape.
 
 a = a[a['Item Sold'].isnull()]
 
