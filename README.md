@@ -12,6 +12,6 @@ Steps of Project:
 1.  Christie_Web_BS4_Scrape.py
 2.  Auction_House_Graphs_and_ Cleaning.ipynb
 3.  Christie_Scrape_Selenium_Pieces_Amount.py
-4.  Auction_House_Graphs_and_ Cleaning.ipynb(Again)
+4.  Auction_House_Graphs_and_ Cleaning.ipynb
 5.  Selenium_Scrape_Null_Fill-in.py
-6.  Auction_House_Graphs_and_ Cleaning.ipynb(Again)
+6.  Auction_House_Graphs_and_ Cleaning.ipynb(Repeat)
